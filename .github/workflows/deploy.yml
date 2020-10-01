@@ -2,22 +2,32 @@ name: Firebase Deploy
 
 on:
   push:
-    branches: 
-    - master
+    branches: [ master ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+        
+      - name: Install NodeJS
+        uses: actions/setup-node@v2-beta
         with:
-          node-version: '12'
-      - run: npm ci
-      - run: npm run build
-      - name: GitHub Action for Firebase
+          node-version: 12
+ 
+      - name: Install yarn
+        uses: borales/actions-yarn@v2.0.0
+        with:
+         cmd: install # will run `yarn install` command
+      
+      - name: Build React App
+        run: yarn build
+
+      - name: Deploy to Firebase
         uses: w9jds/firebase-action@v1.5.0
         with:
           args: deploy --only hosting
+
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
