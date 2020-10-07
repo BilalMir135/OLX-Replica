@@ -1,0 +1,76 @@
+.root {
+  position: relative;
+  margin: 0 10px;
+  width: 270px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border: 2px #333 solid;
+  border-radius: 4px;
+  padding: 0 10px;
+  color: #002f34;
+}
+
+.location input[type='text'] {
+  border: none;
+  padding: 10px 10px;
+  outline: none;
+  font-size: 18px;
+  color: #002f34;
+  width: 100%;
+}
+
+.menu {
+  width: 100%;
+  position: absolute;
+  background-color: #fff;
+  top: 45px;
+  color: #000;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.12), 0 6px 6px 0 rgba(0, 0, 0, 0.24);
+  overflow-y: scroll;
+  font-size: 12px;
+  height: 320px;
+}
+
+.menuSection {
+  border-bottom: 1px #ccc solid;
+  padding-top: 10px;
+}
+
+.menuSection li {
+  list-style: none;
+  font-size: 14px;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.menuSection li:hover {
+  background-color: #c8f8f6;
+}
+
+.menuSection li p {
+  margin: 0 0 0 10px;
+}
+
+.menuSectionTitle {
+  color: #002f34a3;
+  display: inline-block;
+  padding: 10px;
+}
+
+.geoLocation {
+  color: #3a77ff;
+}
+
+.geoLocation p span {
+  font-size: 16px;
+}
+
+.active {
+  border-color: #23e5db;
+}
