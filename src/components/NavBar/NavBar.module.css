@@ -1,0 +1,20 @@
+.searchCategories {
+  color: #002f34a3;
+}
+
+.searchCategories span {
+  font-size: 12px;
+  padding: 20px 10px;
+  display: inline-block;
+}
+
+.searchCategories div {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  font-size: 14px;
+}
+
+.searchCategories div svg {
+  margin: 0 10px;
+}
