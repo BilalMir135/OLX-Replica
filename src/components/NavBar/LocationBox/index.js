@@ -3,7 +3,7 @@ import SearchIcon from '@material-ui/icons/Search';
 import MyLocationIcon from '@material-ui/icons/MyLocation';
 import Chervon from '../../Chervon';
 import styles from './LocationBox.module.css';
-import OutsideClick from '../OutsideClick';
+import OutsideClick from '../../OutsideClick';
 import clsx from 'clsx';
 import LocationIcon from '../../../assets/location.svg';
 

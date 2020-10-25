@@ -1,0 +1,53 @@
+.categoryNav {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.categoryNav a {
+  color: #002f34;
+  font-size: 14px;
+  margin: 0 10px;
+}
+
+.allCat {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #002f34;
+  font-weight: bolder;
+  cursor: pointer;
+  margin: 0 15px;
+}
+
+.allCat img {
+  margin-left: 5px;
+}
+
+.categoryNav a:hover {
+  color: #00adc7;
+}
+
+.categoryNav .menuWrapper {
+  width: 95% !important;
+  margin: 102px 60px 0 40px;
+}
+
+.menu {
+  padding: 20px;
+  display: flex;
+}
+
+.menu a {
+  display: block;
+  margin: 10px 0;
+}
+
+.subMenu {
+  margin: 0 60px 0 20px;
+}
+
+.subMenu div {
+  margin: 20px 0;
+}

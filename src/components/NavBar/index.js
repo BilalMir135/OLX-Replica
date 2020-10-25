@@ -4,9 +4,9 @@ import AppBar from '@material-ui/core/AppBar';
 import DesktopNav from './DesktopNav';
 import MobileNav from './MobileNav';
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
   root: {
-    minHeight: 80,
+    minHeight: 65,
   },
   appBar: {
     backgroundColor: '#f7f8f9',

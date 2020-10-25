@@ -7,6 +7,7 @@ import SearchIcon from '@material-ui/icons/Search';
 import Box from '@material-ui/core/Box';
 import SellBtn from '../../assets/sellBtn.png';
 import Toolbar from '@material-ui/core/Toolbar';
+import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
   toolBar: {
@@ -57,7 +58,9 @@ const DesktopNav = () => {
   const classes = useStyles();
   return (
     <Toolbar className={'classes.toolBar'}>
-      <img src={Logo} alt='logo' />
+      <Link to='/'>
+        <img src={Logo} alt='logo' />
+      </Link>
       <LocationBox />
       <TextField className={classes.searchBar} placeholder='Find Cars, Mobile Phones and more...' variant='outlined' />
       <div className={classes.searchButton}>
