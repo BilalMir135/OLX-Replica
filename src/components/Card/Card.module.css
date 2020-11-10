@@ -1,0 +1,106 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0;
+  position: relative;
+  z-index: -1;
+}
+
+.card .imgWrapper {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.card .imgWrapper img {
+  max-width: 80%;
+  height: 150px;
+}
+
+.card .imgWrapper svg {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 5px;
+  cursor: pointer;
+  color: #002f34;
+}
+
+.featured {
+  background-color: #ffce32;
+  color: #002f34;
+  font-size: 10px;
+  font-weight: 700;
+  position: absolute;
+  padding: 4px 10px;
+  left: 10px;
+  top: 12px;
+}
+
+.card .description {
+  padding: 5px 10px;
+  position: relative;
+  height: 100px;
+}
+
+.featuredDes {
+  border-left: 5px solid #ffce32;
+}
+
+.card .description span {
+  display: block;
+  line-height: 1.3;
+}
+
+.card .description .price {
+  font-size: 20px;
+  color: #002f34;
+  font-weight: 700;
+}
+
+.card .description .furtherInfo {
+  font-size: 14px;
+  color: #002f34;
+}
+
+.card .description .info {
+  color: #666;
+}
+
+.card .description p {
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  color: #666;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  bottom: 5px;
+  width: 90%;
+}
+
+.infoCard {
+  background-color: #3a77ff;
+  height: 271px;
+  margin: 10px 0;
+  border-radius: 5px;
+  padding: 16px 12px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+
+.infoCard h4 {
+  margin: 0;
+}
+
+.infoCard p {
+  font-size: 14px;
+}
+
+.infoCard div {
+  position: absolute;
+  bottom: 15px;
+  width: 92%;
+  left: 10px;
+}

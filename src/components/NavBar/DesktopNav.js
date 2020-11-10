@@ -49,7 +49,7 @@ const useStyles = makeStyles((theme) => ({
     borderBottom: `2px solid ${theme.palette.secondary.main}`,
     cursor: 'pointer',
     '&:hover': {
-      borderBottom: 'none',
+      borderColor: 'transparent',
     },
   },
 }));
