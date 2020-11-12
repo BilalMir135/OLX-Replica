@@ -7,11 +7,68 @@
 }
 
 .cardSection {
-  width: 85%;
+  width: 90%;
   margin: 150px auto;
 }
 
 .heading {
   font-size: 24px;
   color: #002f34;
+}
+
+.adFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f8f9;
+  color: #002f34;
+}
+
+.adFooter h2 {
+  font-size: 34px;
+  line-height: 40px;
+  text-transform: uppercase;
+  margin: 0 0 10px 0;
+}
+
+.adFooter p {
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0;
+}
+
+.adFooter .textArea {
+  width: 30%;
+  margin-left: 80px;
+}
+
+.adFooter .vr {
+  width: 2px;
+  background-color: rgba(0, 47, 52, 0.2);
+  border: 0 solid rgba(0, 47, 52, 0.2);
+  height: 136px;
+  margin-right: 20px;
+}
+
+.adFooter span {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.getApp {
+  display: flex;
+  margin-top: 20px;
+}
+
+.getApp img {
+  width: 128px;
+  height: 40px;
+  margin-right: 8px;
+}
+
+@media (max-width: 770px) {
+  .adFooter {
+    display: none;
+  }
 }

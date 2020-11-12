@@ -24,6 +24,21 @@ const Home = () => {
           Load more
         </ThemeButton>
       </div>
+      <div className={styles.adFooter}>
+        <img src='https://statics.olx.com.pk/external/base/img/phone-app.png' alt='ad' />
+        <div className={styles.textArea}>
+          <h2>Try the olx app</h2>
+          <p>Buy, sell and find just about anything using the app on your mobile.</p>
+        </div>
+        <div className={styles.vr}></div>
+        <div>
+          <span>Get your app today</span>
+          <div className={styles.getApp}>
+            <img src='https://statics.olx.com.pk/external/base/img/appstore_2x.png' alt='appStore' />
+            <img src='https://statics.olx.com.pk/external/base/img/playstore_2x.png' alt='playStore' />
+          </div>
+        </div>
+      </div>
     </MainLayout>
   );
 };

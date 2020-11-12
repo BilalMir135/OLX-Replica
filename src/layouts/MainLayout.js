@@ -10,7 +10,7 @@ const MainLayout = ({ children }) => {
       <NavBar />
       <ScrollTop />
       {window.innerWidth > 770 && <CategoryNav />}
-      {children}
+      <div className='body'>{children}</div>
       <Footer />
     </div>
   );
