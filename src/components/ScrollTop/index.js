@@ -6,10 +6,12 @@ const ScrollTop = () => {
   const ref = useRef(null);
 
   window.onscroll = () => {
-    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-      ref.current.style.display = 'flex';
-    } else {
-      ref.current.style.display = 'none';
+    if (ref.current) {
+      if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        ref.current.style.display = 'flex';
+      } else {
+        ref.current.style.display = 'none';
+      }
     }
   };
 

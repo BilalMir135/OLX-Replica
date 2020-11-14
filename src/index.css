@@ -1,3 +1,5 @@
+@import '~react-image-gallery/styles/css/image-gallery.css';
+
 * {
   box-sizing: border-box;
 }
@@ -69,6 +71,27 @@ a:hover {
 
 .CategoryNav_menu__jfcIL {
   z-index: 9999 !important;
+}
+
+.image-gallery-slide-wrapper {
+  background-color: #000;
+  /*  position: relative; */
+}
+
+.image-gallery-slide-wrapper svg {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+/* .image-gallery-index {
+  position: absolute !important;
+  bottom: 0;
+  height: 20px;
+} */
+
+.image-gallery-thumbnails {
+  display: flex;
+  justify-content: flex-start;
 }
 
 @media (max-width: 770px) {
