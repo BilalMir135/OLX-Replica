@@ -28,7 +28,7 @@ const Product = () => {
   return !product ? (
     <p>Loading</p>
   ) : (
-    <MainLayout>
+    <MainLayout body>
       <div className='my-5'>
         <BreadCrumbNavigation nav={[{ link: `/${product.category}`, text: product.category }]} />
       </div>

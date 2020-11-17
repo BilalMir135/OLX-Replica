@@ -4,13 +4,13 @@ import CategoryNav from '../components/CategoryNav';
 import Footer from '../components/Footer';
 import ScrollTop from '../components/ScrollTop';
 
-const MainLayout = ({ children }) => {
+const MainLayout = ({ children, body }) => {
   return (
     <div>
       <NavBar />
       <ScrollTop />
       {window.innerWidth > 770 && <CategoryNav />}
-      <div className='body'>{children}</div>
+      <div className={`${body && 'body'}`}>{children}</div>
       <Footer />
     </div>
   );
