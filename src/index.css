@@ -92,6 +92,12 @@ a:hover {
 .image-gallery-thumbnails {
   display: flex;
   justify-content: flex-start;
+  border: 1px solid #ccc;
+  border-radius: 0 0 5px 5px;
+}
+
+.image-gallery-thumbnails-container button {
+  margin: 0 20px;
 }
 
 @media (max-width: 770px) {

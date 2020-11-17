@@ -12,12 +12,18 @@
     "area": "Faisal-Town",
     "furtherInfo": "2006 - 175,000 km",
     "featured": true,
-    "Detail": {
-      "Make": "Samsung",
-      "Condition": "Used"
-    },
+    "details": [
+      {
+        "type": "Make",
+        "value": "Samsung"
+      },
+      {
+        "type": "Condition",
+        "value": "Used"
+      }
+    ],
     "coverImg": "https://apollo-singapore.akamaized.net/v1/files/f7foun6rurbv3-PK/image;s=1080x1080",
-    "discription": "Nissan_Clipper DX {Every} Triptronic Auto+Manual Transmission Japan Model 2015 Fresh Import 2020 Total Genuine Condition ECO Engine With Out Standing Fuel Average 31000km Genuine Mileage Rs=1,385,000",
+    "description": "Nissan_Clipper DX {Every} Triptronic Auto+Manual Transmission Japan Model 2015 Fresh Import 2020 Total Genuine Condition ECO Engine With Out Standing Fuel Average 31000km Genuine Mileage Rs=1,385,000",
     "images": [
       "https://apollo-singapore.akamaized.net/v1/files/qjb4i0xzzpnd1-PK/image;s=1080x1080",
       "https://apollo-singapore.akamaized.net/v1/files/q9jwud5fiuxb1-PK/image;s=1080x1080",
@@ -37,12 +43,18 @@
     "area": "Gulberg 2",
     "furtherInfo": "",
     "featured": true,
-    "Detail": {
-      "Make": "Suzuki",
-      "Condition": "New"
-    },
+    "details": [
+      {
+        "type": "Make",
+        "value": "Suzuki"
+      },
+      {
+        "type": "Condition",
+        "value": "New"
+      }
+    ],
     "coverImg": "https://apollo-singapore.akamaized.net/v1/files/7112coq5eyjh3-PK/image;s=1080x1080",
-    "discription": "Salaried Person, Business Person, Pension Person and Rental Income can avail this offer.'Suzuki vitara' ya Apni pasand ki koi bhi gaari humse finance kerwayen sirf 20% down payment deker mahana asaan iqsaat key saath. 1 To 7 Years Installment Plan Par.No processing fee No Hidden Charges Bank ki Nisbat asan Sharait. (Without Bank Statement)No Kibor and No Penalties. Free Tracker/Insurance. Minimum Profit Rate From Other Companies & Banks.Mazeed malomat key liye call karen YA office visit karen.Contact: Mr Hassan Banaye Hmare Partner or Haasil karen Har Month 3.5% se le kar 5% Munafa 100% Guaranteed.",
+    "description": "Salaried Person, Business Person, Pension Person and Rental Income can avail this offer.'Suzuki vitara' ya Apni pasand ki koi bhi gaari humse finance kerwayen sirf 20% down payment deker mahana asaan iqsaat key saath. 1 To 7 Years Installment Plan Par.No processing fee No Hidden Charges Bank ki Nisbat asan Sharait. (Without Bank Statement)No Kibor and No Penalties. Free Tracker/Insurance. Minimum Profit Rate From Other Companies & Banks.Mazeed malomat key liye call karen YA office visit karen.Contact: Mr Hassan Banaye Hmare Partner or Haasil karen Har Month 3.5% se le kar 5% Munafa 100% Guaranteed.",
     "images": [
       "https://apollo-singapore.akamaized.net/v1/files/8pfs9uz14u82-PK/image;s=1080x1080",
       "https://apollo-singapore.akamaized.net/v1/files/oedwmox7vyko1-PK/image;s=1080x1080",
@@ -62,12 +74,18 @@
     "area": "Amir Khusro",
     "furtherInfo": "",
     "featured": false,
-    "Detail": {
-      "Make": "Samsung",
-      "Condition": "Used"
-    },
+    "details": [
+      {
+        "type": "Make",
+        "value": "Samsung"
+      },
+      {
+        "type": "Condition",
+        "value": "Used"
+      }
+    ],
     "coverImg": "https://apollo-singapore.akamaized.net/v1/files/wlpsi4crhfkl1-PK/image;s=1080x1080",
-    "discription": "Only kit pta approved condition 10/10",
+    "description": "Only kit pta approved condition 10/10",
     "images": [
       "https://apollo-singapore.akamaized.net/v1/files/0g1kzkoty59q-PK/image;s=1080x1080",
       "https://apollo-singapore.akamaized.net/v1/files/6hxlk89k6oit3-PK/image;s=1080x1080",
@@ -87,12 +105,18 @@
     "area": "Saddar",
     "furtherInfo": "",
     "featured": true,
-    "Detail": {
-      "Make": "Other Mobiles",
-      "Condition": "New"
-    },
+    "details": [
+      {
+        "type": "Make",
+        "value": "Other Mobiles"
+      },
+      {
+        "type": "Condition",
+        "value": "New"
+      }
+    ],
     "coverImg": "https://apollo-singapore.akamaized.net/v1/files/jdixk74dhzo62-PK/image;s=1080x1080",
-    "discription": "Sharp Aqous R1 Non Approved 4gb Ram 64gb Memory 5.3 Inch Display 3200 Mah Battery Andriod 9.0 Snapdragon 835 Octa Core Processor Orignal Usa Stock Approved price 16000 Shop address : shop no 212, 2nd floor star city Mall Opposite Bambino Cinema saddar Shop Timing 3pm to 9 pm",
+    "description": "Sharp Aqous R1 Non Approved 4gb Ram 64gb Memory 5.3 Inch Display 3200 Mah Battery Andriod 9.0 Snapdragon 835 Octa Core Processor Orignal Usa Stock Approved price 16000 Shop address : shop no 212, 2nd floor star city Mall Opposite Bambino Cinema saddar Shop Timing 3pm to 9 pm",
     "images": [
       "https://apollo-singapore.akamaized.net/v1/files/t3y9f4ii4f2o1-PK/image;s=1080x1080",
       "https://apollo-singapore.akamaized.net/v1/files/4qxu6b2tsihj3-PK/image;s=1080x1080",
@@ -113,12 +137,18 @@
     "area": "Model Town",
     "furtherInfo": "",
     "featured": true,
-    "Detail": {
-      "type": "Laptops",
-      "Condition": "Used"
-    },
+    "details": [
+      {
+        "type": "Type",
+        "value": "Laptops"
+      },
+      {
+        "type": "Condition",
+        "value": "Used"
+      }
+    ],
     "coverImg": "https://apollo-singapore.akamaized.net/v1/files/wb0b13aaai7t2-PK/image;s=1080x1080",
-    "discription": "I5 5th Gen 8gb Ram 256ssd Good condition Battery upto 6 hrs Orignal charger",
+    "description": "I5 5th Gen 8gb Ram 256ssd Good condition Battery upto 6 hrs Orignal charger",
     "images": [
       "https://apollo-singapore.akamaized.net/v1/files/1zurzuatg408-PK/image;s=1080x1080",
       "https://apollo-singapore.akamaized.net/v1/files/t3zcxbhqqn8b1-PK/image;s=1080x1080",
@@ -139,12 +169,18 @@
     "area": "Karimabad",
     "furtherInfo": "",
     "featured": false,
-    "Detail": {
-      "type": "Laptop",
-      "Condition": "Used"
-    },
+    "details": [
+      {
+        "type": "Type",
+        "value": "Laptops"
+      },
+      {
+        "type": "Condition",
+        "value": "Used"
+      }
+    ],
     "coverImg": "https://apollo-singapore.akamaized.net/v1/files/gdk3lbft2eh91-PK/image;s=1080x1080",
-    "discription": "",
+    "description": "",
     "images": [
       "https://apollo-singapore.akamaized.net/v1/files/b6wm2bvam24n1-PK/image;s=1080x1080",
       "https://apollo-singapore.akamaized.net/v1/files/sn4qtublkmzr-PK/image;s=1080x1080",
@@ -164,11 +200,17 @@
     "area": "Landhi 2",
     "furtherInfo": "",
     "featured": false,
-    "Detail": {
-      "type": "Cooking Range",
-      "Condition": "Used"
-    },
-    "discription": "Fryer counter hot plate slander 12 korsiya 2 table 3 cholay Han gas walae ek cash counter ek persal table Han total saman Han fast food ka agr koi bhi saman chiyae alag se tu miljai ga",
+    "details": [
+      {
+        "type": "Type",
+        "value": "Cooking Range"
+      },
+      {
+        "type": "Condition",
+        "value": "Used"
+      }
+    ],
+    "description": "Fryer counter hot plate slander 12 korsiya 2 table 3 cholay Han gas walae ek cash counter ek persal table Han total saman Han fast food ka agr koi bhi saman chiyae alag se tu miljai ga",
     "coverImg": "https://apollo-singapore.akamaized.net/v1/files/yrbiy5f5zyoq-PK/image;s=1080x1080",
     "images": [
       "https://apollo-singapore.akamaized.net/v1/files/88k7aa1rzhsd-PK/image;s=1080x1080",
@@ -189,11 +231,17 @@
     "area": "National Town",
     "furtherInfo": "",
     "featured": true,
-    "Detail": {
-      "type": "Makeup",
-      "Condition": "New"
-    },
-    "discription": "100% original and imported eyeshadow palette. Money back guarantee if found fake or copy. Delivery charges not included. For more pictures please whatsapp.",
+    "details": [
+      {
+        "type": "Type",
+        "value": "Makeup"
+      },
+      {
+        "type": "Condition",
+        "value": "New"
+      }
+    ],
+    "description": "100% original and imported eyeshadow palette. Money back guarantee if found fake or copy. Delivery charges not included. For more pictures please whatsapp.",
     "coverImg": "https://apollo-singapore.akamaized.net/v1/files/hgvikud2t59y1-PK/image;s=1080x1080",
     "images": [
       "https://apollo-singapore.akamaized.net/v1/files/56vnvaezj0ay1-PK/image;s=1080x1080",
@@ -215,11 +263,14 @@
     "area": "Sabzazar",
     "furtherInfo": "",
     "featured": false,
-    "Detail": {
-      "Condition": "New"
-    },
+    "details": [
+      {
+        "type": "Condition",
+        "value": "Used"
+      }
+    ],
     "coverImg": "https://apollo-singapore.akamaized.net/v1/files/vv5os2rdgasc-PK/image;s=1080x1080",
-    "discription": "3+2+1 recliner brown colour just like new..",
+    "description": "3+2+1 recliner brown colour just like new..",
     "images": [
       "https://apollo-singapore.akamaized.net/v1/files/w4lg3im1wk44-PK/image;s=1080x1080",
       "https://apollo-singapore.akamaized.net/v1/files/4kztmordtwql2-PK/image;s=1080x1080",
@@ -240,12 +291,18 @@
     "area": "Lakki Marwat",
     "furtherInfo": "",
     "featured": false,
-    "Detail": {
-      "type": "Residential Plots",
-      "Condition": "New"
-    },
+    "details": [
+      {
+        "type": "Type",
+        "value": "Residential Plots"
+      },
+      {
+        "type": "Condition",
+        "value": "New"
+      }
+    ],
     "coverImg": "https://apollo-singapore.akamaized.net/v1/files/mvdmx2wz0rjg1-PK/image;s=1080x1080",
-    "discription": "Alpha Builders and Construction Co. Brings Very limited Resedencial plot available for Sale,Intehai Munasib rate.Near Tehsil Sarai Nourang, Main Bannu Double Road se sirf 500 meter k fasle pe.",
+    "description": "Alpha Builders and Construction Co. Brings Very limited Resedencial plot available for Sale,Intehai Munasib rate.Near Tehsil Sarai Nourang, Main Bannu Double Road se sirf 500 meter k fasle pe.",
     "images": [
       "https://apollo-singapore.akamaized.net/v1/files/1v8u94t74mjc-PK/image;s=1080x1080",
       "https://apollo-singapore.akamaized.net/v1/files/1v8u94t74mjc-PK/image;s=1080x1080",
